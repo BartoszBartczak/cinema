@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
 import { ChoiceComponent } from './choice/choice.component';
 import { SelectionComponent } from './selection/selection.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     ChoiceComponent,
-    SelectionComponent
+    SelectionComponent,
+    HeaderComponent
   ],
   imports: [
     NgxsModule.forRoot(),
